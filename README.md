@@ -1,4 +1,5 @@
-# AEScrypter
+![AEScrypter](https://user-images.githubusercontent.com/75953873/177024575-f0fa204c-4e3f-4d72-bf99-cb9dde463c46.png)
+
 Encrypt and Decrypt files with Advanced Encryption Standard.
 
 ## Usage
