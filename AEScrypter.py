@@ -17,9 +17,9 @@ parse.add_argument("-e",'--encrypt',help="Encrypt file")
 ########## DECRYPT FILE
 parse.add_argument("-d",'--decrypt',help="Decrypt file")
 ######### BUFFERSIZE
-parse.add_argument("-b",'--buffersize',help="Buffer size (128 / 192 / 256")
+parse.add_argument("-b",'--buffersize',help="Buffer size (128 / 192 / 256)")
 ######### PASSWORD
-parse.add_argument("-p",'--password',help="Password to encrypt or decrypt file ")
+parse.add_argument("-p",'--password',help="Password to encrypt and decrypt file ")
 parse = parse.parse_args()
 
 
