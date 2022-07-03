@@ -1,0 +1,4 @@
+pyAesCrypt
+argparse
+pyfiglet
+termcolor
