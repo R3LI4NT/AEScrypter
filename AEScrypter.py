@@ -29,7 +29,7 @@ def encryptFile():
 	password = parse.password
 
 	pyAesCrypt.encryptFile(f"{file}", f"{file}.aes", password, bufferSize)
-	os.system(f'shred -u {file}')
+	os.system(f'shred -n 10 -z -u {file}')
 	f=Figlet(font='slant')
 	print(colored(f.renderText(' File ENCRYPTED'),'red'))
 	print(f"Before --> {file}")
