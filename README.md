@@ -3,13 +3,13 @@
 Encrypt and Decrypt files with Advanced Encryption Standard.
 
 ## Usage
-| DESCRIPTION | COMMAND |
+| COMMAND | DESCRIPTION |
 | ------------- | ------------- |
-| Encrypt file | -e / --encrypt |
-| Decrypt file | -d / --decrypt |
-| Buffer size (128 / 192 / 256) | -b / --buffersize |
-| Password to encrypt and decrypt file | -p / --password |
-| Request help | -h / --help |
+| -e / --encrypt | Encrypt file |
+| -d / --decrypt | Decrypt file |
+| -b / --buffersize | Buffer size (128 / 192 / 256) |
+| -p / --password | Password to encrypt and decrypt file |
+| -h / --help | Request help |
 
 ## Insallation
 ```
